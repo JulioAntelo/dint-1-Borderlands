@@ -1,0 +1,692 @@
+{
+  "name": "historia_borderlands",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "90:175",
+    "version": "5025990835",
+    "component-id": "58914f0f8ce0bda59a1391b326e1e6eea5174189"
+  },
+  "default": "Property 1=Borderlands Presequel",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo historia"
+      },
+      {
+        "type": "text",
+        "id": "Historia texto"
+      },
+      {
+        "type": "image",
+        "id": "image 2"
+      },
+      {
+        "type": "text",
+        "id": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO"
+      },
+      {
+        "type": "image",
+        "id": "Lilith"
+      },
+      {
+        "type": "image",
+        "id": "image 4"
+      }
+    ],
+    "modes": {
+      "Property 1=Borderlands Presequel": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo historia",
+              "Historia texto",
+              "image 2",
+              "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo historia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "366.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "325.0"
+              }
+            },
+            "vector-content": "fondo_historia.svg"
+          },
+          {
+            "id": "Historia texto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-80.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-14.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "173.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "296.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "HISTORIA\nEn la luna de pandora Jack el Guapo contrata a un grupo de mercenarios para que busquen el tesoro que esta misma luna alberga.\nWhilhelm, Cl4p-tp, Athena y Nisha serán los personajes disponibles para disfrutar esta historia de disparos, memes, matar enemigos gigantes, etc.\n",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "9"
+                },
+                {
+                  "span-start": "9",
+                  "span-length": "273",
+                  "annotated-text-style": {
+                    "text-size": "14.0",
+                    "letter-spacing": "0.56"
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "image 2",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-25.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "147.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "212.0"
+              }
+            },
+            "image-content": "image_2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "109.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "57.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.0",
+            "letter-spacing": "0.52",
+            "line-height": "1.4820000575138972",
+            "typeface": "Oswald"
+          }
+        ]
+      },
+      "Property 1=Borderlands 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo historia",
+              "Historia texto",
+              "Lilith",
+              "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo historia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "375.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "325.0"
+              }
+            },
+            "vector-content": "fondo_historia1.svg"
+          },
+          {
+            "id": "Historia texto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-76.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "173.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "HISTORIA\nEntrais en un autobús de camino a la casa de Jack el guapo, quien os contratará para abrir la cámara y encontrar el mayor tesoro conocido por la humanidad.\nJugarás como Mordecai, Brick, Roland o Lilith, mercenarios en búsqueda de un gran tesoro el cual desconoceis el valor.\n",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "9"
+                },
+                {
+                  "span-start": "9",
+                  "span-length": "275",
+                  "annotated-text-style": {
+                    "text-size": "14.0",
+                    "letter-spacing": "0.56"
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Lilith",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "93.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "147.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "208.0"
+              }
+            },
+            "image-content": "lilith.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "93.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "103.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.0",
+            "letter-spacing": "0.52",
+            "line-height": "1.4820000575138972",
+            "typeface": "Oswald"
+          }
+        ]
+      },
+      "Property 1=Borderlands 2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo historia",
+              "Historia texto",
+              "image 4",
+              "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo historia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "376.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "326.0"
+              }
+            },
+            "vector-content": "fondo_historia2.svg"
+          },
+          {
+            "id": "Historia texto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-85.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-8.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "173.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "296.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "HISTORIA\nEl tren en el que viajais explota y os deja solo a 4 supervivientes, Maya, Zero, Gunzerker y Axton, os encontrará la unidad clp4-tp.\nSe llevó el GOTY de su año y han hecho eventos benéficos durante 7 años consecutivos para incentivar a la gente a probarlo.\n",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "9"
+                },
+                {
+                  "span-start": "9",
+                  "span-length": "257",
+                  "annotated-text-style": {
+                    "text-size": "14.0",
+                    "letter-spacing": "0.56"
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "image 4",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "84.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-18.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "147.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "212.0"
+              }
+            },
+            "image-content": "image_4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "84.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "115.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "57.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.0",
+            "letter-spacing": "0.52",
+            "line-height": "1.4820000575138972",
+            "typeface": "Oswald"
+          }
+        ]
+      },
+      "Property 1=Borderlands 3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo historia",
+              "Historia texto",
+              "Lilith",
+              "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo historia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "375.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "325.0"
+              }
+            },
+            "vector-content": "fondo_historia3.svg"
+          },
+          {
+            "id": "Historia texto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-76.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "173.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "HISTORIA\nEntrais en un autobús de camino a la casa de Jack el guapo, quien os contratará para abrir la cámara y encontrar el mayor tesoro conocido por la humanidad.\nJugarás como Mordecai, Brick, Roland o Lilith, mercenarios en búsqueda de un gran tesoro el cual desconoceis el valor.\n",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "9"
+                },
+                {
+                  "span-start": "9",
+                  "span-length": "275",
+                  "annotated-text-style": {
+                    "text-size": "14.0",
+                    "letter-spacing": "0.56"
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Lilith",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "93.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "147.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "208.0"
+              }
+            },
+            "image-content": "lilith.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "margin": {
+              "left": "214.0",
+              "top": "238.0",
+              "right": "28.0",
+              "bottom": "31.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.0",
+            "letter-spacing": "0.52",
+            "line-height": "1.4820000575138972",
+            "typeface": "Oswald"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Borderlands Presequel",
+      "size": {
+        "width": 366.0,
+        "height": 325.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 1",
+      "size": {
+        "width": 366.0,
+        "height": 325.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 2",
+      "size": {
+        "width": 376.0,
+        "height": 325.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 3",
+      "size": {
+        "width": 366.0,
+        "height": 325.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

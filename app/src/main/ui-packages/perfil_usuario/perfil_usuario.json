@@ -1,0 +1,690 @@
+{
+  "name": "perfil_usuario",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "90:1197",
+    "version": "5025820114",
+    "component-id": "0eff3beac3f0e95dd547d1d57399b65012a1f349"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Poner Gmail"
+      },
+      {
+        "type": "text",
+        "id": "gmailTexto"
+      },
+      {
+        "type": "text",
+        "id": "GMAIL"
+      },
+      {
+        "type": "text",
+        "id": "ContraseñaTexto"
+      },
+      {
+        "type": "text",
+        "id": "CONTRASEÑA"
+      },
+      {
+        "type": "text",
+        "id": "NombreTexto"
+      },
+      {
+        "type": "text",
+        "id": "NOMBRE"
+      },
+      {
+        "type": "text",
+        "id": "ApellidosTexto"
+      },
+      {
+        "type": "text",
+        "id": "APELLIDOS"
+      },
+      {
+        "type": "text",
+        "id": "UsernameTexto"
+      },
+      {
+        "type": "text",
+        "id": "USERNAME"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Poner Gmail",
+              "gmailTexto",
+              "GMAIL"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Poner Gmail",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "327.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_gmail.svg"
+          },
+          {
+            "id": "gmailTexto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "206.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$gmailTexto text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "letter-spacing": "4.0",
+            "line-height": "1.4819999933242798",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "GMAIL",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-19.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "GMAIL",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Poner Gmail",
+              "ContraseñaTexto",
+              "CONTRASEÑA"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Poner Gmail",
+            "margin": {
+              "top": "35.0"
+            },
+            "border-radius": "17.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "poner_gmail1.svg"
+          },
+          {
+            "id": "ContraseñaTexto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "206.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": "$gmailTexto text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "letter-spacing": "4.0",
+            "line-height": "1.4819999933242798",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "CONTRASEÑA",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-19.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "CONTRASEÑA",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          }
+        ]
+      },
+      "Property 1=Variant3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Poner Gmail",
+              "NombreTexto",
+              "NOMBRE"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Poner Gmail",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "327.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_gmail2.svg"
+          },
+          {
+            "id": "NombreTexto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "206.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$gmailTexto text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.0",
+            "letter-spacing": "3.25",
+            "line-height": "1.4820000575138972",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "NOMBRE",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-19.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "NOMBRE",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          }
+        ]
+      },
+      "Property 1=Variant4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Poner Gmail",
+              "ApellidosTexto",
+              "APELLIDOS"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Poner Gmail",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "327.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_gmail3.svg"
+          },
+          {
+            "id": "ApellidosTexto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "206.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$gmailTexto text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "letter-spacing": "4.0",
+            "line-height": "1.4819999933242798",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "APELLIDOS",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-19.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "APELLIDOS",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          }
+        ]
+      },
+      "Property 1=Variant5": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Poner Gmail",
+              "UsernameTexto",
+              "USERNAME"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Poner Gmail",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "327.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_gmail4.svg"
+          },
+          {
+            "id": "UsernameTexto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "206.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$gmailTexto text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "letter-spacing": "4.0",
+            "line-height": "1.4819999933242798",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "USERNAME",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-19.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "USERNAME",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "gmailTexto text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 327.0,
+        "height": 67.0
+      },
+      "parameters": {
+        "gmailTexto text content": "patata@gmail.com"
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 327.0,
+        "height": 67.0
+      },
+      "parameters": {
+        "gmailTexto text content": {
+          "text": "*****************",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 1
+            },
+            {
+              "span-start": 1,
+              "span-length": 16,
+              "annotated-text-style": {}
+            }
+          ]
+        }
+      }
+    },
+    {
+      "design": "Property 1=Variant3",
+      "size": {
+        "width": 327.0,
+        "height": 67.0
+      },
+      "parameters": {
+        "gmailTexto text content": "Julio"
+      }
+    },
+    {
+      "design": "Property 1=Variant4",
+      "size": {
+        "width": 327.0,
+        "height": 67.0
+      },
+      "parameters": {
+        "gmailTexto text content": "Antelo Ramírez"
+      }
+    },
+    {
+      "design": "Property 1=Variant5",
+      "size": {
+        "width": 327.0,
+        "height": 67.0
+      },
+      "parameters": {
+        "gmailTexto text content": "patataVoladora24"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

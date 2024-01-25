@@ -1,0 +1,283 @@
+{
+  "name": "p_gina_de_inicio_borderlands",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "142:157",
+    "version": "5033394752",
+    "component-id": "326fa209ffbc70e160000d80daadd60ca83cda8b"
+  },
+  "default": "Página de inicio Borderlands",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Pie de app",
+        "key": "pie_de_app"
+      },
+      {
+        "type": "adin_component",
+        "id": "Builds de la comunidad",
+        "key": "builds_de_la_comunidad"
+      },
+      {
+        "type": "vector",
+        "id": "Separación despues de Noticias"
+      },
+      {
+        "type": "vector",
+        "id": "Separación despues de logos"
+      },
+      {
+        "type": "vector",
+        "id": "Separación despues de cabecera"
+      },
+      {
+        "type": "adin_component",
+        "id": "Cabecera_Pagina_Inicial",
+        "key": "cabecera_pagina_inicial"
+      },
+      {
+        "type": "adin_component",
+        "id": "Conjunto Logos",
+        "key": "conjunto_logos"
+      },
+      {
+        "type": "adin_component",
+        "id": "Noticias",
+        "key": "noticias"
+      }
+    ],
+    "modes": {
+      "Página de inicio Borderlands": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Pie de app",
+              "Builds de la comunidad",
+              "Separación despues de Noticias",
+              "Separación despues de logos",
+              "Separación despues de cabecera",
+              "Cabecera_Pagina_Inicial",
+              "Conjunto Logos",
+              "Noticias"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Pie de app",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "376.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            }
+          },
+          {
+            "id": "Builds de la comunidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "184.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              }
+            }
+          },
+          {
+            "id": "Separación despues de Noticias",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "3.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.0"
+              }
+            },
+            "vector-content": "separaci_n_despues_de_noticias.svg"
+          },
+          {
+            "id": "Separación despues de logos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-186.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.0"
+              }
+            },
+            "vector-content": "separaci_n_despues_de_logos.svg"
+          },
+          {
+            "id": "Separación despues de cabecera",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-291.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "363.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "vector-content": "separaci_n_despues_de_cabecera.svg"
+          },
+          {
+            "id": "Cabecera_Pagina_Inicial",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-353.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "369.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "104.0"
+              }
+            }
+          },
+          {
+            "id": "Conjunto Logos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-236.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            }
+          },
+          {
+            "id": "Noticias",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-90.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Página de inicio Borderlands",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

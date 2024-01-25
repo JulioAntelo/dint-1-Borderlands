@@ -1,0 +1,6 @@
+{
+    "target": "CabeceraPaginaInicial",
+    "package": "com.example.dint_1_borderlands.cabecerapaginainicial",
+    "generateImplementation": true,
+    "generatePreviews": true
+}

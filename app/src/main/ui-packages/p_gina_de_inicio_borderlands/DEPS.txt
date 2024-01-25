@@ -1,0 +1,5 @@
+pie_de_app
+builds_de_la_comunidad
+cabecera_pagina_inicial
+conjunto_logos
+noticias

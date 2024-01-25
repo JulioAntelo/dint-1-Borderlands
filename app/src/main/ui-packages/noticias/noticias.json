@@ -1,0 +1,326 @@
+{
+  "name": "noticias",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "6:26",
+    "version": "5033394752",
+    "component-id": "b071b3118d175c125c5c9b8676f3196451716d9d"
+  },
+  "default": "Noticias",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "fondo Noticias"
+      },
+      {
+        "type": "text",
+        "id": "noticias texto"
+      },
+      {
+        "type": "image",
+        "id": "Evento 1"
+      },
+      {
+        "type": "image",
+        "id": "Evento 2"
+      },
+      {
+        "type": "image",
+        "id": "Evento 3"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      }
+    ],
+    "modes": {
+      "Noticias": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "fondo Noticias",
+              "noticias texto",
+              "Evento 1",
+              "Evento 2",
+              "Evento 3",
+              "Vector",
+              "Vector1",
+              "Vector2",
+              "Vector3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "fondo Noticias",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              }
+            },
+            "vector-content": "fondo_noticias.svg"
+          },
+          {
+            "id": "noticias texto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-110.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-53.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0039215686274509665",
+              "value": "1.0"
+            },
+            "text-content": "NOTICIAS",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Evento 1",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-100.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "75.0"
+              }
+            },
+            "image-content": "evento_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Evento 2",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "58.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "75.0"
+              }
+            },
+            "image-content": "evento_2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Evento 3",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "166.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "75.0"
+              }
+            },
+            "image-content": "evento_3.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-33.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "71.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Vector1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-8.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "71.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Vector2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "71.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "38.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "71.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Noticias",
+      "size": {
+        "width": 360.0,
+        "height": 167.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

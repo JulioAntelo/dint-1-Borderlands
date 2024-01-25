@@ -1,0 +1,1061 @@
+{
+  "name": "builds_de_la_comunidad",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "90:217",
+    "version": "5033394752",
+    "component-id": "8787264d60ae64c5f2f7cb7fa820f2534bf8095f"
+  },
+  "default": "Property 1=Builds genéricas",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      },
+      {
+        "type": "text",
+        "id": "BUILDS DE LA COMUNIDAD"
+      },
+      {
+        "type": "image",
+        "id": "Build 4"
+      },
+      {
+        "type": "image",
+        "id": "Build 3"
+      },
+      {
+        "type": "image",
+        "id": "Build 2"
+      },
+      {
+        "type": "image",
+        "id": "Build 1"
+      },
+      {
+        "type": "image",
+        "id": "Rounded rectangle"
+      }
+    ],
+    "modes": {
+      "Property 1=Builds genéricas": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 2",
+              "BUILDS DE LA COMUNIDAD",
+              "Build 4",
+              "Build 3",
+              "Build 2",
+              "Build 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "BUILDS DE LA COMUNIDAD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-84.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-122.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "160.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "BUILDS DE LA COMUNIDAD",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Build 4",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "90.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "88.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 3",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-102.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "88.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_3.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 2",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "90.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-32.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 1",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-102.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-32.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_1.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Presequel": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 2",
+              "BUILDS DE LA COMUNIDAD",
+              "Build 4",
+              "Build 2",
+              "Build 1",
+              "Build 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "BUILDS DE LA COMUNIDAD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-84.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-122.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "160.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "BUILDS DE LA COMUNIDAD",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Build 4",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "90.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "88.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_5.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 2",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "90.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-32.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_6.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 1",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-102.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-32.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_7.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 3",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-102.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "88.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_3.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 2",
+              "BUILDS DE LA COMUNIDAD",
+              "Rounded rectangle",
+              "Build 4",
+              "Build 2",
+              "Build 1",
+              "Build 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "BUILDS DE LA COMUNIDAD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-84.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-122.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "160.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "BUILDS DE LA COMUNIDAD",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Rounded rectangle",
+            "margin": {
+              "left": "209.0",
+              "top": "216.0",
+              "right": "28.0",
+              "bottom": "40.0"
+            },
+            "border-radius": "17.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "build_5.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 4",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "95.00839233398438"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "91.04759979248047"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.04998779296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95237731933594"
+              }
+            },
+            "image-content": "build_8.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 2",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "95.00839233398438"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.380924224853516"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.04998779296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95238494873047"
+              }
+            },
+            "image-content": "build_9.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 1",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-101.2083969116211"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.380924224853516"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.05000305175781"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95238494873047"
+              }
+            },
+            "image-content": "build_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 3",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-101.2083969116211"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "91.04759979248047"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.05000305175781"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95237731933594"
+              }
+            },
+            "image-content": "build_10.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands 2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 2",
+              "BUILDS DE LA COMUNIDAD",
+              "Rounded rectangle",
+              "Build 4",
+              "Build 2",
+              "Build 1",
+              "Build 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              }
+            },
+            "vector-content": "rectangle_5.svg"
+          },
+          {
+            "id": "BUILDS DE LA COMUNIDAD",
+            "margin": {
+              "left": "16.0",
+              "top": "18.0",
+              "right": "184.0",
+              "bottom": "263.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "BUILDS DE LA COMUNIDAD",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Rounded rectangle",
+            "margin": {
+              "left": "209.0",
+              "top": "216.0",
+              "right": "28.0",
+              "bottom": "40.0"
+            },
+            "border-radius": "17.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "build_5.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 4",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "95.00839233398438"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "91.04759979248047"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.04998779296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95237731933594"
+              }
+            },
+            "image-content": "build_11.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 2",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "95.00839233398438"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.380985260009766"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.04998779296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95238494873047"
+              }
+            },
+            "image-content": "build_2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 1",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-101.2083969116211"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.380985260009766"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.05000305175781"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95238494873047"
+              }
+            },
+            "image-content": "build_1.png",
+            "scale": "cover",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              },
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              }
+            ]
+          },
+          {
+            "id": "Build 3",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-101.2083969116211"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "91.04759979248047"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.05000305175781"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95237731933594"
+              }
+            },
+            "image-content": "build_12.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands 3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 2",
+              "BUILDS DE LA COMUNIDAD",
+              "Build 4",
+              "Build 3",
+              "Build 2",
+              "Build 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "BUILDS DE LA COMUNIDAD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-84.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-122.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "160.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "BUILDS DE LA COMUNIDAD",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Build 4",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "90.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "88.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "image-content": "build_4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 3",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-101.2083969116211"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "91.04759979248047"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.05000305175781"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95237731933594"
+              }
+            },
+            "image-content": "build_13.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 2",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "95.00839233398438"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.380985260009766"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.04998779296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95238494873047"
+              }
+            },
+            "image-content": "build_14.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Build 1",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-101.2083969116211"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.380985260009766"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.05000305175781"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.95238494873047"
+              }
+            },
+            "image-content": "build_15.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Builds genéricas",
+      "size": {
+        "width": 360.0,
+        "height": 336.0
+      }
+    },
+    {
+      "design": "Property 1=Presequel",
+      "size": {
+        "width": 360.0,
+        "height": 336.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 1",
+      "size": {
+        "width": 360.0,
+        "height": 336.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 2",
+      "size": {
+        "width": 360.0,
+        "height": 336.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 3",
+      "size": {
+        "width": 360.0,
+        "height": 336.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

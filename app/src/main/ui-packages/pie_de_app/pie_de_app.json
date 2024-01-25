@@ -1,0 +1,263 @@
+{
+  "name": "pie_de_app",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "12:2",
+    "version": "5033394752",
+    "component-id": "a8b9a772d8b12f609f4795539ac07cdfaa41514a"
+  },
+  "default": "Pie de app",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "PieDeAppFondo"
+      },
+      {
+        "type": "group",
+        "id": "ph:house"
+      },
+      {
+        "type": "group",
+        "id": "ph:house1"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:person-outline"
+      },
+      {
+        "type": "vector",
+        "id": "Simbolo boton izq"
+      },
+      {
+        "type": "vector",
+        "id": "Simbolo boton medio izq"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Pie de app": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "PieDeAppFondo",
+              "ph:house",
+              "ph:house1",
+              "material-symbols:person-outline"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "PieDeAppFondo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "pie_de_app_fondo.svg"
+          },
+          {
+            "id": "ph:house",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-124.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$Pagina_Inicial_Tap",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Simbolo boton izq"
+            ]
+          },
+          {
+            "id": "ph:house1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Simbolo boton medio izq"
+            ]
+          },
+          {
+            "id": "material-symbols:person-outline",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "126.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.5"
+              }
+            },
+            "tap-handler": "$Perfil_tap",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "Simbolo boton izq",
+            "margin": {
+              "left": "4.875",
+              "top": "3.752685546875",
+              "right": "4.875",
+              "bottom": "4.999971389770508"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "simbolo_boton_izq.svg"
+          },
+          {
+            "id": "Simbolo boton medio izq",
+            "margin": {
+              "left": "4.0",
+              "top": "6.0",
+              "right": "4.669836044311523",
+              "bottom": "6.357900619506836"
+            },
+            "tap-handler": "$Boton_Centro_tap",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "simbolo_boton_medio_izq.svg"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "6.6666259765625",
+              "top": "6.8333740234375",
+              "right": "6.666706085205078",
+              "bottom": "6.833293914794922"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Pagina_Inicial_Tap": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Perfil_tap": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Boton_Centro_tap": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Pie de app",
+      "size": {
+        "width": 360.0,
+        "height": 48.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

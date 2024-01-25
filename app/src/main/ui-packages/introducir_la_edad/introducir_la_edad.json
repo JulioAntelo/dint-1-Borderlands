@@ -1,0 +1,211 @@
+{
+  "name": "introducir_la_edad",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "126:157",
+    "version": "5025845428",
+    "component-id": "c7ab181aac22a04f761dfa5c4795e7f357f1cbbb"
+  },
+  "default": "Introducir la edad",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo introducir la edad"
+      },
+      {
+        "type": "group",
+        "id": "Intoducir año"
+      },
+      {
+        "type": "group",
+        "id": "Borderlands Inicio de Sesion"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo Introducir año nacimiento"
+      },
+      {
+        "type": "text",
+        "id": "FECHA NACIMIENTO"
+      },
+      {
+        "type": "image",
+        "id": "Borderlands inicio"
+      }
+    ],
+    "modes": {
+      "Introducir la edad": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo introducir la edad",
+              "Intoducir año",
+              "Borderlands Inicio de Sesion"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Fondo introducir la edad",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "240.0"
+              }
+            },
+            "vector-content": "fondo_introducir_la_edad.svg"
+          },
+          {
+            "id": "Intoducir año",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "28.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "304.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "82.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Fondo Introducir año nacimiento",
+              "FECHA NACIMIENTO"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Borderlands Inicio de Sesion",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Borderlands inicio"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo Introducir año nacimiento",
+            "border-radius": "17.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_introducir_a_o_nacimiento.svg"
+          },
+          {
+            "id": "FECHA NACIMIENTO",
+            "margin": {
+              "left": "28.0",
+              "top": "21.0",
+              "right": "28.0",
+              "bottom": "21.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$FECHA NACIMIENTO text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "32.0",
+            "letter-spacing": "8.0",
+            "line-height": "1.4819999933242798",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Borderlands inicio",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands_inicio.png",
+            "scale": "fill"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "FECHA NACIMIENTO text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Introducir la edad",
+      "size": {
+        "width": 360.0,
+        "height": 240.0
+      },
+      "parameters": {
+        "FECHA NACIMIENTO text content": "DD/MM/YYYY"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

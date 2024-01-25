@@ -1,0 +1,211 @@
+{
+  "name": "conjunto_logos",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "5:14",
+    "version": "5033394752",
+    "component-id": "ee94232d8d07c7f3f4087ff1866c727a02b18236"
+  },
+  "default": "Conjunto Logos",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo de logos"
+      },
+      {
+        "type": "image",
+        "id": "borderlands2 logo"
+      },
+      {
+        "type": "image",
+        "id": "Bordelands Logo"
+      },
+      {
+        "type": "image",
+        "id": "presequel logo"
+      },
+      {
+        "type": "image",
+        "id": "borderlands3 logo"
+      }
+    ],
+    "modes": {
+      "Conjunto Logos": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo de logos",
+              "borderlands2 logo",
+              "Bordelands Logo",
+              "presequel logo",
+              "borderlands3 logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo de logos",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_de_logos.svg"
+          },
+          {
+            "id": "borderlands2 logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "46.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.519012451171875"
+              }
+            },
+            "tap-handler": "$on borderlands2 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.93670654296875"
+              }
+            },
+            "image-content": "borderlands2_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Bordelands Logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-47.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.519012451171875"
+              }
+            },
+            "tap-handler": "$on Bordelands Logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.93670654296875"
+              }
+            },
+            "image-content": "bordelands_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "presequel logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-140.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "2.531646728515625"
+              }
+            },
+            "tap-handler": "$on presequel logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.93670654296875"
+              }
+            },
+            "image-content": "presequel_logo.png",
+            "scale": "fill"
+          },
+          {
+            "id": "borderlands3 logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "139.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.519012451171875"
+              }
+            },
+            "tap-handler": "$on borderlands3 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.93670654296875"
+              }
+            },
+            "image-content": "borderlands3_logo.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on borderlands2 logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Bordelands Logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on presequel logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on borderlands3 logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Conjunto Logos",
+      "size": {
+        "width": 360.0,
+        "height": 80.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
