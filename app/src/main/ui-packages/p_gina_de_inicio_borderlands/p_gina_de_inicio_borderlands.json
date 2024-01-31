@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "Sq4acyLS891dt7kWK4pA8b",
     "node": "142:157",
-    "version": "5033394752",
+    "version": "5069061096",
     "component-id": "326fa209ffbc70e160000d80daadd60ca83cda8b"
   },
   "default": "Página de inicio Borderlands",
@@ -180,7 +180,7 @@
               },
               "vertical": {
                 "attachment": "center",
-                "offset": "-291.0"
+                "offset": "-292.0"
               }
             },
             "size-constraints": {
@@ -190,7 +190,7 @@
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "30.0"
+                "value": "34.0"
               }
             },
             "vector-content": "separaci_n_despues_de_cabecera.svg"
@@ -200,21 +200,21 @@
             "alignment": {
               "horizontal": {
                 "attachment": "center",
-                "offset": "-4.5"
+                "offset": "0.0"
               },
               "vertical": {
                 "attachment": "center",
-                "offset": "-353.0"
+                "offset": "-356.5"
               }
             },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "369.0"
+                "value": "360.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "104.0"
+                "value": "95.0"
               }
             }
           },

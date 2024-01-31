@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "Sq4acyLS891dt7kWK4pA8b",
     "node": "5:12",
-    "version": "5033394752",
+    "version": "5069061096",
     "component-id": "5c95905cd793a7330d5fcf248ff5d8c11ecbed6e"
   },
   "default": "Cabecera_Pagina_Inicial",
@@ -47,11 +47,11 @@
             "alignment": {
               "horizontal": {
                 "attachment": "center",
-                "offset": "4.5"
+                "offset": "0.0"
               },
               "vertical": {
                 "attachment": "center",
-                "offset": "-0.0050201416015625"
+                "offset": "0.4949798583984375"
               }
             },
             "size-constraints": {
@@ -63,19 +63,18 @@
                 "sizing-mode": "fixed",
                 "value": "95.98995971679688"
               }
-            },
-            "vector-content": "parte_de_arriba.svg"
+            }
           },
           {
             "id": "Borderlands inicio",
             "alignment": {
               "horizontal": {
                 "attachment": "center",
-                "offset": "52.0"
+                "offset": "47.5"
               },
               "vertical": {
                 "attachment": "center",
-                "offset": "-0.0054473876953125"
+                "offset": "0.4945526123046875"
               }
             },
             "tap-handler": "$Borderlands inicio Letras Imagen",
@@ -97,11 +96,11 @@
             "alignment": {
               "horizontal": {
                 "attachment": "center",
-                "offset": "-132.63551280126097"
+                "offset": "-137.13547274693968"
               },
               "vertical": {
                 "attachment": "center",
-                "offset": "0.000006348047691062675"
+                "offset": "0.4999939502815778"
               }
             },
             "relative-transform": [
@@ -144,8 +143,8 @@
     {
       "design": "Cabecera_Pagina_Inicial",
       "size": {
-        "width": 369.0,
-        "height": 104.0
+        "width": 360.0,
+        "height": 95.0
       }
     }
   ],

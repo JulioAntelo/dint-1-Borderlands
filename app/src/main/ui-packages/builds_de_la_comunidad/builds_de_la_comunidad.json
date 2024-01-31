@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "Sq4acyLS891dt7kWK4pA8b",
     "node": "90:217",
-    "version": "5033394752",
+    "version": "5069061096",
     "component-id": "8787264d60ae64c5f2f7cb7fa820f2534bf8095f"
   },
   "default": "Property 1=Builds genéricas",
@@ -353,7 +353,6 @@
                 "value": "80.0"
               }
             },
-            "image-content": "build_6.png",
             "scale": "cover"
           },
           {
@@ -379,7 +378,6 @@
                 "value": "80.0"
               }
             },
-            "image-content": "build_7.png",
             "scale": "cover"
           },
           {
@@ -532,7 +530,7 @@
                 "value": "80.95237731933594"
               }
             },
-            "image-content": "build_8.png",
+            "image-content": "build_6.png",
             "scale": "cover"
           },
           {
@@ -558,7 +556,7 @@
                 "value": "80.95238494873047"
               }
             },
-            "image-content": "build_9.png",
+            "image-content": "build_7.png",
             "scale": "cover"
           },
           {
@@ -610,7 +608,7 @@
                 "value": "80.95237731933594"
               }
             },
-            "image-content": "build_10.png",
+            "image-content": "build_8.png",
             "scale": "cover"
           }
         ]
@@ -733,7 +731,6 @@
                 "value": "80.95237731933594"
               }
             },
-            "image-content": "build_11.png",
             "scale": "cover"
           },
           {
@@ -829,7 +826,6 @@
                 "value": "80.95237731933594"
               }
             },
-            "image-content": "build_12.png",
             "scale": "cover"
           }
         ]
@@ -959,7 +955,7 @@
                 "value": "80.95237731933594"
               }
             },
-            "image-content": "build_13.png",
+            "image-content": "build_9.png",
             "scale": "cover"
           },
           {
@@ -985,7 +981,7 @@
                 "value": "80.95238494873047"
               }
             },
-            "image-content": "build_14.png",
+            "image-content": "build_10.png",
             "scale": "cover"
           },
           {
@@ -1011,7 +1007,6 @@
                 "value": "80.95238494873047"
               }
             },
-            "image-content": "build_15.png",
             "scale": "cover"
           }
         ]

@@ -1,0 +1,703 @@
+{
+  "name": "men_inicio_sesi_n_usuario_borderlands",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "176:157",
+    "version": "5069172417",
+    "component-id": "868322c4a7d999ab830337fcdd0328a1b2e67118"
+  },
+  "default": "Menú Inicio Sesión Usuario Borderlands",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Pie de app",
+        "key": "pie_de_app"
+      },
+      {
+        "type": "vector",
+        "id": "fondo Datos"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo de texto Principal"
+      },
+      {
+        "type": "text",
+        "id": "REGISTRATE:"
+      },
+      {
+        "type": "vector",
+        "id": "Separación despues de cabecera"
+      },
+      {
+        "type": "vector",
+        "id": "Parte de arriba"
+      },
+      {
+        "type": "image",
+        "id": "Borderlands inicio"
+      },
+      {
+        "type": "image",
+        "id": "logo buscador de la camara"
+      },
+      {
+        "type": "vector",
+        "id": "Poner Nombre"
+      },
+      {
+        "type": "text",
+        "id": "NOMBRE:"
+      },
+      {
+        "type": "vector",
+        "id": "Poner Apellidos"
+      },
+      {
+        "type": "text",
+        "id": "APELLIDOS:"
+      },
+      {
+        "type": "vector",
+        "id": "Poner Contraseña"
+      },
+      {
+        "type": "text",
+        "id": "CONTRASEÑA:"
+      },
+      {
+        "type": "vector",
+        "id": "Poner Contraseña1"
+      },
+      {
+        "type": "text",
+        "id": "GMAIL:"
+      },
+      {
+        "type": "text",
+        "id": "USERNAME:"
+      },
+      {
+        "type": "vector",
+        "id": "Poner Username"
+      },
+      {
+        "type": "adin_component",
+        "id": "Términos, condiciones y Política de privacidad",
+        "key": "t_rminos_condiciones_y_pol_tica_de_privacidad"
+      }
+    ],
+    "modes": {
+      "Menú Inicio Sesión Usuario Borderlands": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Pie de app",
+              "fondo Datos",
+              "Fondo de texto Principal",
+              "REGISTRATE:",
+              "Separación despues de cabecera",
+              "Parte de arriba",
+              "Borderlands inicio",
+              "logo buscador de la camara",
+              "Poner Nombre",
+              "NOMBRE:",
+              "Poner Apellidos",
+              "APELLIDOS:",
+              "Poner Contraseña",
+              "CONTRASEÑA:",
+              "Poner Contraseña1",
+              "GMAIL:",
+              "USERNAME:",
+              "Poner Username",
+              "Términos, condiciones y Política de privacidad"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Pie de app",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.000030517578125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "376.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            }
+          },
+          {
+            "id": "fondo Datos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.000030517578125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "72.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "559.0"
+              }
+            },
+            "vector-content": "fondo_datos.svg"
+          },
+          {
+            "id": "Fondo de texto Principal",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.000030517578125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-240.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "vector-content": "fondo_de_texto_principal.svg"
+          },
+          {
+            "id": "REGISTRATE:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-251.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "286.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "REGISTRATE:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "letter-spacing": "10.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Separación despues de cabecera",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.000030517578125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-291.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "vector-content": "separaci_n_despues_de_cabecera.svg"
+          },
+          {
+            "id": "Parte de arriba",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.000030517578125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-352.00502014160156"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "95.98995971679688"
+              }
+            },
+            "vector-content": "parte_de_arriba.svg"
+          },
+          {
+            "id": "Borderlands inicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "56.500030517578125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-348.00538635253906"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "265.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "95.98995971679688"
+              }
+            },
+            "image-content": "borderlands_inicio.png",
+            "scale": "fill"
+          },
+          {
+            "id": "logo buscador de la camara",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-128.13553777985803"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-348.00000128134684"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "-0.00009950268577085808",
+                "0.0"
+              ],
+              [
+                "0.0",
+                "0.9999999403953552",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "73.72257232666016"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.99486541748047"
+              }
+            },
+            "image-content": "logo_buscador_de_la_camara.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Poner Nombre",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-90.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-26.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "148.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_nombre.svg"
+          },
+          {
+            "id": "NOMBRE:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-90.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-59.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "NOMBRE:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Poner Apellidos",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-26.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "149.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_apellidos.svg"
+          },
+          {
+            "id": "APELLIDOS:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-59.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "133.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "APELLIDOS:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Poner Contraseña",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "149.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_contrase_a.svg"
+          },
+          {
+            "id": "CONTRASEÑA:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "90.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-161.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "CONTRASEÑA:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Poner Contraseña1",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-86.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "149.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_contrase_a1.svg"
+          },
+          {
+            "id": "GMAIL:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-86.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-161.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "GMAIL:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "USERNAME:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "47.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "133.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$USERNAME: text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "Poner Username",
+            "border-radius": "17.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "78.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "328.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "vector-content": "poner_username.svg"
+          },
+          {
+            "id": "Términos, condiciones y Política de privacidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "231.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "242.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "USERNAME: text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Menú Inicio Sesión Usuario Borderlands",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      },
+      "parameters": {
+        "USERNAME: text content": "USERNAME:"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
