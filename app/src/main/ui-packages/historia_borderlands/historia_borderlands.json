@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "Sq4acyLS891dt7kWK4pA8b",
     "node": "90:175",
-    "version": "5025990835",
+    "version": "5074605206",
     "component-id": "58914f0f8ce0bda59a1391b326e1e6eea5174189"
   },
   "default": "Property 1=Borderlands Presequel",
@@ -39,6 +39,10 @@
       {
         "type": "image",
         "id": "image 4"
+      },
+      {
+        "type": "image",
+        "id": "Imagen Personaje Historia"
       }
     ],
     "modes": {
@@ -512,7 +516,7 @@
             "children": [
               "Fondo historia",
               "Historia texto",
-              "Lilith",
+              "Imagen Personaje Historia",
               "Ah y casi se me olvida, ESCALERAS?? NOOOOOOOOOOOOO"
             ],
             "clip-content": "false"
@@ -543,24 +547,19 @@
           },
           {
             "id": "Historia texto",
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": "-76.5"
-              },
-              "vertical": {
-                "attachment": "center",
-                "offset": "-17.5"
-              }
+            "margin": {
+              "left": "20.0",
+              "right": "173.0",
+              "bottom": "29.0"
             },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "173.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "290.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
             "color": {
@@ -570,7 +569,7 @@
               "value": "1.0"
             },
             "annotated-text-content": {
-              "text": "HISTORIA\nEntrais en un autobús de camino a la casa de Jack el guapo, quien os contratará para abrir la cámara y encontrar el mayor tesoro conocido por la humanidad.\nJugarás como Mordecai, Brick, Roland o Lilith, mercenarios en búsqueda de un gran tesoro el cual desconoceis el valor.\n",
+              "text": "HISTORIA\nLos 4 nuevos compatriotas de “El halcón de fuego”, sois amara, fl4k, zane y moze, juntos buscareis las diversas cámaras que hay en el universo.\nVisitaréis diferentes planetas y ecosistemas juntos y podreis participar en eventos únicos.\n",
               "annotated-text-span-list": [
                 {
                   "span-start": "0",
@@ -578,7 +577,7 @@
                 },
                 {
                   "span-start": "9",
-                  "span-length": "275",
+                  "span-length": "236",
                   "annotated-text-style": {
                     "text-size": "14.0",
                     "letter-spacing": "0.56"
@@ -595,16 +594,16 @@
             "typeface": "Oswald"
           },
           {
-            "id": "Lilith",
+            "id": "Imagen Personaje Historia",
             "border-radius": "17.0",
             "alignment": {
               "horizontal": {
-                "attachment": "center",
-                "offset": "93.5"
+                "attachment": "start",
+                "offset": "203.0"
               },
               "vertical": {
-                "attachment": "center",
-                "offset": "-27.5"
+                "attachment": "start",
+                "offset": "27.0"
               }
             },
             "size-constraints": {
@@ -614,10 +613,10 @@
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "208.0"
+                "value": "212.0"
               }
             },
-            "image-content": "lilith.png",
+            "image-content": "imagen_personaje_historia.png",
             "scale": "cover"
           },
           {

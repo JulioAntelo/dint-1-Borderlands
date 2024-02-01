@@ -1,0 +1,160 @@
+{
+  "name": "pagina_borderlands_1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "187:158",
+    "version": "5074605206",
+    "component-id": "233d635f9fcd3b7d0a98bfb33bbf87a4b5406a9c"
+  },
+  "default": "Pagina Borderlands 1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Pie de app",
+        "key": "pie_de_app"
+      },
+      {
+        "type": "adin_component",
+        "id": "Cabecera Paginas Principales",
+        "key": "cabecera_paginas_principales"
+      },
+      {
+        "type": "adin_component",
+        "id": "Historia Borderlands",
+        "key": "historia_borderlands"
+      },
+      {
+        "type": "adin_component",
+        "id": "Builds de la comunidad",
+        "key": "builds_de_la_comunidad"
+      }
+    ],
+    "modes": {
+      "Pagina Borderlands 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Pie de app",
+              "Cabecera Paginas Principales",
+              "Historia Borderlands",
+              "Builds de la comunidad"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Pie de app",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "752.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            }
+          },
+          {
+            "id": "Cabecera Paginas Principales",
+            "design": "Property 1=Borderlands 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              }
+            }
+          },
+          {
+            "id": "Historia Borderlands",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-6.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "95.0"
+              }
+            },
+            "design": "Property 1=Borderlands 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "366.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "325.0"
+              }
+            }
+          },
+          {
+            "id": "Builds de la comunidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-3.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "416.0"
+              }
+            },
+            "design": "Property 1=Borderlands 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "366.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "340.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Pagina Borderlands 1",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

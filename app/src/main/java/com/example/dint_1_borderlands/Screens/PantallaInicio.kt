@@ -10,5 +10,6 @@ import com.example.dint_1_borderlands.piedeapp.MaterialSymbolsPersonOutline
 @Composable
 fun PantallaInicio(navController: NavHostController) {
     PGinaDeInicioBorderlands(
-        MaterialSymbolsPersonOutline(perfilTap = { navController.navigate(Routes.PantallaRegistrarse.route)}))
+        MaterialSymbolsPersonOutline(perfilTap={navController.navigate(Routes.PantallaRegistrarse.route) })
+    )
 }

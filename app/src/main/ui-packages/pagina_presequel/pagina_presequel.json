@@ -1,0 +1,169 @@
+{
+  "name": "pagina_presequel",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "185:157",
+    "version": "5074496288",
+    "component-id": "c740c4e950de59351d075c6b63411ce728f5b7bb"
+  },
+  "default": "Pagina presequel",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Pie de app",
+        "key": "pie_de_app"
+      },
+      {
+        "type": "adin_component",
+        "id": "Historia Borderlands",
+        "key": "historia_borderlands"
+      },
+      {
+        "type": "adin_component",
+        "id": "Cabecera Paginas Principales",
+        "key": "cabecera_paginas_principales"
+      },
+      {
+        "type": "adin_component",
+        "id": "Builds de la comunidad",
+        "key": "builds_de_la_comunidad"
+      }
+    ],
+    "modes": {
+      "Pagina presequel": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Pie de app",
+              "Historia Borderlands",
+              "Cabecera Paginas Principales",
+              "Builds de la comunidad"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Pie de app",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "376.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "366.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            }
+          },
+          {
+            "id": "Historia Borderlands",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-145.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "366.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "325.0"
+              }
+            }
+          },
+          {
+            "id": "Cabecera Paginas Principales",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-352.0"
+              }
+            },
+            "design": "Property 1=Borderlands Presquel",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              }
+            }
+          },
+          {
+            "id": "Builds de la comunidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "185.0"
+              }
+            },
+            "design": "Property 1=Presequel",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "366.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "340.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Pagina presequel",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

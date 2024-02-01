@@ -1,0 +1,375 @@
+{
+  "name": "cabecera_paginas_principales",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "90:120",
+    "version": "5074605206",
+    "component-id": "4f44feda5b64a025848828bb44d110f56e12d161"
+  },
+  "default": "Property 1=Borderlands 3",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "fondo de arriba"
+      },
+      {
+        "type": "image",
+        "id": "Borderlands 3 Letras Logo"
+      },
+      {
+        "type": "image",
+        "id": "borderlands3 logo"
+      },
+      {
+        "type": "vector",
+        "id": "Parte de arriba"
+      },
+      {
+        "type": "image",
+        "id": "image 1"
+      },
+      {
+        "type": "image",
+        "id": "borderlands2 logo"
+      },
+      {
+        "type": "image",
+        "id": "Bordelands Logo"
+      },
+      {
+        "type": "image",
+        "id": "presequel logo"
+      },
+      {
+        "type": "image",
+        "id": "Borderlands the presequel Letras Logo"
+      }
+    ],
+    "modes": {
+      "Property 1=Borderlands 3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "fondo de arriba",
+              "Borderlands 3 Letras Logo",
+              "borderlands3 logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "fondo de arriba",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_de_arriba.svg"
+          },
+          {
+            "id": "Borderlands 3 Letras Logo",
+            "margin": {
+              "left": "128.0",
+              "top": "8.0",
+              "right": "31.0",
+              "bottom": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands_3_letras_logo.png",
+            "scale": "fill"
+          },
+          {
+            "id": "borderlands3 logo",
+            "margin": {
+              "left": "4.0",
+              "top": "8.0",
+              "right": "289.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands3_logo.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands 2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Parte de arriba",
+              "image 1",
+              "borderlands2 logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Parte de arriba",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "parte_de_arriba.svg"
+          },
+          {
+            "id": "image 1",
+            "margin": {
+              "left": "128.0",
+              "top": "7.0",
+              "right": "26.0",
+              "bottom": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "image_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "borderlands2 logo",
+            "margin": {
+              "left": "4.0",
+              "top": "7.0",
+              "right": "289.0",
+              "bottom": "9.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands2_logo.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Parte de arriba",
+              "Bordelands Logo",
+              "image 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Parte de arriba",
+            "margin": {
+              "bottom": "1.010040283203125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "parte_de_arriba1.svg"
+          },
+          {
+            "id": "Bordelands Logo",
+            "margin": {
+              "left": "4.14453125",
+              "top": "6.0",
+              "right": "285.9665832519531",
+              "bottom": "7.777778625488281"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "bordelands_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 1",
+            "margin": {
+              "left": "132.622314453125",
+              "top": "10.0",
+              "right": "19.686019897460938",
+              "bottom": "24.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "image_2.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands Presquel": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Parte de arriba",
+              "presequel logo",
+              "Borderlands the presequel Letras Logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Parte de arriba",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "parte_de_arriba2.svg"
+          },
+          {
+            "id": "presequel logo",
+            "margin": {
+              "left": "4.0",
+              "top": "8.0",
+              "right": "289.0",
+              "bottom": "8.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "presequel_logo.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Borderlands the presequel Letras Logo",
+            "margin": {
+              "left": "120.0",
+              "top": "8.0",
+              "right": "27.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands_the_presequel_letras_logo.png",
+            "scale": "fill"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Borderlands 3",
+      "size": {
+        "width": 373.0,
+        "height": 96.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 2",
+      "size": {
+        "width": 373.0,
+        "height": 96.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 1",
+      "size": {
+        "width": 373.0,
+        "height": 96.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands Presquel",
+      "size": {
+        "width": 373.0,
+        "height": 96.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

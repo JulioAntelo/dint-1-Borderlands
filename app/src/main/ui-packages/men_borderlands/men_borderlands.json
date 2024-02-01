@@ -1,0 +1,823 @@
+{
+  "name": "men_borderlands",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Sq4acyLS891dt7kWK4pA8b",
+    "node": "90:545",
+    "version": "5074464583",
+    "component-id": "d374760a5a8dc77c0f77d17014e33ead24f2411c"
+  },
+  "default": "Property 1=Presequel",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo Menú Borderlands Presequel"
+      },
+      {
+        "type": "text",
+        "id": "MENU BORDERLANDS:"
+      },
+      {
+        "type": "image",
+        "id": "borderlands2 logo"
+      },
+      {
+        "type": "image",
+        "id": "Bordelands Logo"
+      },
+      {
+        "type": "image",
+        "id": "logo buscador de la camara"
+      },
+      {
+        "type": "image",
+        "id": "borderlands3 logo"
+      },
+      {
+        "type": "image",
+        "id": "Bordelands Presequel Logo"
+      },
+      {
+        "type": "image",
+        "id": "borderlands logo"
+      }
+    ],
+    "modes": {
+      "Property 1=Presequel": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo Menú Borderlands Presequel",
+              "MENU BORDERLANDS:",
+              "borderlands2 logo",
+              "Bordelands Logo",
+              "logo buscador de la camara",
+              "borderlands3 logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo Menú Borderlands Presequel",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_men_borderlands_presequel.svg"
+          },
+          {
+            "id": "MENU BORDERLANDS:",
+            "margin": {
+              "left": "16.3172607421875",
+              "top": "19.553573608398438",
+              "right": "172.35130310058594",
+              "bottom": "285.69940185546875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "MENU BORDERLANDS:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "borderlands2 logo",
+            "margin": {
+              "left": "42.8328857421875",
+              "top": "237.9017791748047",
+              "right": "237.6203842163086",
+              "bottom": "45.693763732910156"
+            },
+            "tap-handler": "$on borderlands2 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands2_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Bordelands Logo",
+            "margin": {
+              "left": "238.6402587890625",
+              "top": "107.54463958740234",
+              "right": "41.813011169433594",
+              "bottom": "167.00596618652344"
+            },
+            "tap-handler": "$on Bordelands Logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "bordelands_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "logo buscador de la camara",
+            "margin": {
+              "left": "39.33755665477335",
+              "top": "108.72599414993283",
+              "right": "241.72086161915243",
+              "bottom": "172.27378459762576"
+            },
+            "tap-handler": "$on logo buscador de la camara tapped",
+            "relative-transform": [
+              [
+                "1.0",
+                "0.05989190191030502",
+                "0.0"
+              ],
+              [
+                "1.1102230246251565e-16",
+                "0.9982048273086548",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "logo_buscador_de_la_camara.png",
+            "scale": "fill"
+          },
+          {
+            "id": "borderlands3 logo",
+            "margin": {
+              "left": "238.6402587890625",
+              "top": "237.9017791748047",
+              "right": "41.813011169433594",
+              "bottom": "45.693763732910156"
+            },
+            "tap-handler": "$on borderlands3 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands3_logo.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo Menú Borderlands Presequel",
+              "MENU BORDERLANDS:",
+              "borderlands2 logo",
+              "Bordelands Presequel Logo",
+              "logo buscador de la camara",
+              "borderlands3 logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo Menú Borderlands Presequel",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_men_borderlands_presequel1.svg"
+          },
+          {
+            "id": "MENU BORDERLANDS:",
+            "margin": {
+              "left": "16.3172607421875",
+              "top": "19.5535888671875",
+              "right": "172.35130310058594",
+              "bottom": "285.6993865966797"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "MENU BORDERLANDS:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "borderlands2 logo",
+            "margin": {
+              "left": "42.8328857421875",
+              "top": "237.90179443359375",
+              "right": "237.6203842163086",
+              "bottom": "45.693748474121094"
+            },
+            "tap-handler": "$on borderlands2 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands2_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Bordelands Presequel Logo",
+            "margin": {
+              "left": "238.0",
+              "top": "110.0",
+              "right": "42.5396728515625",
+              "bottom": "173.5999984741211"
+            },
+            "tap-handler": "$on Bordelands Presequel Logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "bordelands_presequel_logo.png",
+            "scale": "fill"
+          },
+          {
+            "id": "logo buscador de la camara",
+            "margin": {
+              "left": "39.33755665477335",
+              "top": "108.72599414993283",
+              "right": "241.72086161915243",
+              "bottom": "172.27378459762576"
+            },
+            "tap-handler": "$on logo buscador de la camara tapped",
+            "relative-transform": [
+              [
+                "1.0",
+                "0.05989190191030502",
+                "0.0"
+              ],
+              [
+                "1.1102230246251565e-16",
+                "0.9982048273086548",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "logo_buscador_de_la_camara.png",
+            "scale": "fill"
+          },
+          {
+            "id": "borderlands3 logo",
+            "margin": {
+              "left": "238.6402587890625",
+              "top": "237.90179443359375",
+              "right": "41.813011169433594",
+              "bottom": "45.693748474121094"
+            },
+            "tap-handler": "$on borderlands3 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands3_logo.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Borderlands 2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo Menú Borderlands Presequel",
+              "MENU BORDERLANDS:",
+              "borderlands logo",
+              "logo buscador de la camara",
+              "borderlands3 logo",
+              "Bordelands Presequel Logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo Menú Borderlands Presequel",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_men_borderlands_presequel2.svg"
+          },
+          {
+            "id": "MENU BORDERLANDS:",
+            "margin": {
+              "left": "16.3172607421875",
+              "top": "19.5535888671875",
+              "right": "172.35130310058594",
+              "bottom": "285.6993865966797"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "MENU BORDERLANDS:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "borderlands logo",
+            "margin": {
+              "left": "42.8328857421875",
+              "top": "237.90179443359375",
+              "right": "237.6203842163086",
+              "bottom": "45.693748474121094"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands2_logo.png",
+            "scale": "cover",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              },
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              }
+            ]
+          },
+          {
+            "id": "logo buscador de la camara",
+            "margin": {
+              "left": "39.33755665477335",
+              "top": "108.72599414993283",
+              "right": "241.72086161915243",
+              "bottom": "172.27378459762576"
+            },
+            "tap-handler": "$on logo buscador de la camara tapped",
+            "relative-transform": [
+              [
+                "1.0",
+                "0.05989190191030502",
+                "0.0"
+              ],
+              [
+                "1.1102230246251565e-16",
+                "0.9982048273086548",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "logo_buscador_de_la_camara.png",
+            "scale": "fill"
+          },
+          {
+            "id": "borderlands3 logo",
+            "margin": {
+              "left": "238.6402587890625",
+              "top": "237.90179443359375",
+              "right": "41.813011169433594",
+              "bottom": "45.693748474121094"
+            },
+            "tap-handler": "$on borderlands3 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands3_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Bordelands Presequel Logo",
+            "margin": {
+              "left": "238.0",
+              "top": "110.0",
+              "right": "42.5396728515625",
+              "bottom": "173.5999984741211"
+            },
+            "tap-handler": "$on Bordelands Presequel Logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "bordelands_presequel_logo.png",
+            "scale": "fill"
+          }
+        ]
+      },
+      "Property 1=Borderlands 3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo Menú Borderlands Presequel",
+              "MENU BORDERLANDS:",
+              "borderlands logo",
+              "logo buscador de la camara",
+              "borderlands2 logo",
+              "Bordelands Presequel Logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fondo Menú Borderlands Presequel",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_men_borderlands_presequel3.svg"
+          },
+          {
+            "id": "MENU BORDERLANDS:",
+            "margin": {
+              "left": "16.3172607421875",
+              "top": "19.5535888671875",
+              "right": "172.35130310058594",
+              "bottom": "285.6993865966797"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "MENU BORDERLANDS:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "letter-spacing": "5.0",
+            "line-height": "1.481999969482422",
+            "typeface": "Oswald"
+          },
+          {
+            "id": "borderlands logo",
+            "margin": {
+              "left": "42.8328857421875",
+              "top": "237.9017333984375",
+              "right": "237.6203842163086",
+              "bottom": "45.693809509277344"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands2_logo.png",
+            "scale": "cover",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              },
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              }
+            ]
+          },
+          {
+            "id": "logo buscador de la camara",
+            "margin": {
+              "left": "39.33755665477335",
+              "top": "108.72599414993283",
+              "right": "241.72086161915243",
+              "bottom": "172.27378459762576"
+            },
+            "tap-handler": "$on logo buscador de la camara tapped",
+            "relative-transform": [
+              [
+                "1.0",
+                "0.05989190191030502",
+                "0.0"
+              ],
+              [
+                "1.1102230246251565e-16",
+                "0.9982048273086548",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "logo_buscador_de_la_camara.png",
+            "scale": "fill"
+          },
+          {
+            "id": "borderlands2 logo",
+            "margin": {
+              "left": "238.6402587890625",
+              "top": "237.9017333984375",
+              "right": "41.813011169433594",
+              "bottom": "45.693809509277344"
+            },
+            "tap-handler": "$on borderlands2 logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "borderlands3_logo.png",
+            "scale": "cover",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              },
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              }
+            ]
+          },
+          {
+            "id": "Bordelands Presequel Logo",
+            "margin": {
+              "left": "238.0",
+              "top": "110.0",
+              "right": "42.5396728515625",
+              "bottom": "173.5999984741211"
+            },
+            "tap-handler": "$on Bordelands Presequel Logo tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "bordelands_presequel_logo.png",
+            "scale": "fill"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on borderlands2 logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Bordelands Logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on logo buscador de la camara tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on borderlands3 logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Bordelands Presequel Logo tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Presequel",
+      "size": {
+        "width": 362.0396728515625,
+        "height": 365.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 1",
+      "size": {
+        "width": 362.0396728515625,
+        "height": 365.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 2",
+      "size": {
+        "width": 362.0396728515625,
+        "height": 365.0
+      }
+    },
+    {
+      "design": "Property 1=Borderlands 3",
+      "size": {
+        "width": 362.0396728515625,
+        "height": 365.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
